@@ -1,0 +1,171 @@
+/*Limnpando a formatação padrao*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#corpo
+{
+	font-size: 16px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #f3f3f3;
+	
+}
+
+#navegacao
+{
+	background-color: white;
+	border-bottom: 1px solid #d8d8d8;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+}
+
+#area{
+
+	width: 900px;
+	margin: 0 auto;
+	
+}
+
+
+#menu
+{
+	float: right;
+	margin-right: 50px;
+	padding: 12px;
+}
+
+#formulario
+{
+	float: right;
+	padding-top: 12px;
+	background-color: white;
+	width: 300px;
+	border-bottom: 1px solid #d8d8d8;
+	padding-bottom: 12px;
+
+
+}
+
+#logo
+{
+	float: left;
+	
+	
+}
+
+#area-principal
+{
+	width: 720px;
+	margin: 10px auto 10px auto;
+	/*border: 1px solid black;*/
+	
+	
+
+}
+
+#area-principal1
+{
+	width: 720px;
+	margin: 65px auto 10px auto;
+	/*border: 1px solid black;*/
+	
+	
+
+}
+
+#postagem
+{
+	background-color: #fff;
+	padding:10px;
+
+
+}
+
+input[type=text]
+{
+	box-sizing: border-box;
+	background-color: #D3D3D3;
+	border: none;
+
+	border-radius: 4px;
+	padding: 5px;
+}
+
+
+input[type=submit]{
+	
+	padding: 5px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	background-color: #b9c941;
+	border: none;
+
+}
+
+h2
+{
+	color: #b9c941;
+
+}
+
+a
+{
+	text-decoration: none;
+	padding: 5px 10px;
+}
+a:link
+{
+	color: #838383;
+
+}
+a:visited
+{
+	color: #838383;
+}
+a:hover
+{	color: #fff;
+	background-color: #b9c941;
+}
+a:active
+{
+	color: #535353;	
+}
+
+/*calsses*/
+
+.verde
+{
+	color: #b9c941;
+}
+
+.data-postagem
+{
+	font-size: 13px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+
+
+}
+
+.img-post
+{
+	float: left;
+	margin: 0 10px 5px 0;
+}
+
+.postado
+{
+	border-left: 5px solid #d8d8d8;
+	padding-left: 10px;
+	display: block;
+	margin-top: 10px;
+	font-size: 13px;
+}
